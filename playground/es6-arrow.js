@@ -7,3 +7,13 @@ const user = {
 };
 
 user.printPlacesLived();
+
+
+const multiplier = {
+    numbers: [3, 4, 5, 9],
+    multiplyBy() {
+        return this.numbers.map((number) => number * 2)
+    }
+};
+
+console.log(multiplier.multiplyBy());
